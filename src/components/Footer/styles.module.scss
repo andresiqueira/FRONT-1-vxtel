@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.8rem;
+  width: 100%;
+  background: var(--primary-color);
+  color: var(--text-light); 
+  position: absolute;
+  bottom: 0; 
+  padding: 1.4rem;
+  text-align: center;
+
+  h2 {
+    font: 400 var(--font-size-medium);
+  }   
+
+  strong {
+    color: var(--text-light);
+  }
+}
+
+.desenvolvidoCom{
+  font-size: var(--font-size-small);
+  color: #CCD2DB;
+;
+}

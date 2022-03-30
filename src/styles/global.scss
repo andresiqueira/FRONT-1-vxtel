@@ -55,10 +55,11 @@ html {
 }
 
 body {
-  background: var(--background-primary);
+  background: var(--background-secondary-dark);
   color: var(--text-dark);
   font-family: var(--font-main);
   font-size: var(--font-size-medium);
+  position: relative; // permite que o footer esteja fixado no final da tela
 }
 
 input,
