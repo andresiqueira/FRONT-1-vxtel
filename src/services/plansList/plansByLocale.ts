@@ -7,7 +7,8 @@ export const plansByLocale = (
   let valueWithPlan = 0
   let valueWithoutPlan = 0
   const valuePerMinute = [1.9, 2.9, 1.7, 2.7, 0.9, 1.9]
-
+  console.log(dddOrigin)
+  console.log(dddDest)
   //abstrair essa função
   const calculatePlanValue = (
     qtdMinutes: number,
